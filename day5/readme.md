@@ -75,8 +75,8 @@ GROQ_API_KEY=your_api_key_here
 python main.py
 
 ### Key Features
-Remembers user details across conversations
-Maintains multi-turn context seamlessly
-High-speed inference using Groq LPU
-Stateless design for better scalability
-Supports multiple independent chat sessions
+- Remembers user details across conversations
+- Maintains multi-turn context seamlessly
+- High-speed inference using Groq LPU
+- Stateless design for better scalability
+- Supports multiple independent chat sessions
