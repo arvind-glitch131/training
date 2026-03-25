@@ -57,24 +57,24 @@ The system is built using three main components:
 ## Setup Instructions
 
 ### 1. Create Virtual Environment
-```bash
 python -m venv venv
-2. Activate Environment
+### 2. Activate Environment
 # Windows
 venv\Scripts\activate
 
 # Mac/Linux
 source venv/bin/activate
-3. Install Dependencies
+### 3. Install Dependencies
 pip install langchain-groq langchain-community python-dotenv
-4. Configure Environment Variables
+### 4. Configure Environment Variables
 
 Create a .env file and add:
 
 GROQ_API_KEY=your_api_key_here
-5. Run the Application
+### 5. Run the Application
 python main.py
-Key Features
+
+### Key Features
 Remembers user details across conversations
 Maintains multi-turn context seamlessly
 High-speed inference using Groq LPU
